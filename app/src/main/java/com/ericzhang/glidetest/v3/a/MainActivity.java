@@ -71,8 +71,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 // gif，加载时指定为bitmap则会显示第一帧
                 // 静态图片，加载时指定为gif则会加载失败
                 // 如果不指定则会自动判断图片源是gif还是静态图片
-//                .asBitmap()
-//                .asGif()
+//                .asBitmap()// 指定加载gif动图
+//                .asGif()// 指定加载静态图
                 // 指定占位图
                 .placeholder(R.mipmap.placeholder)
                 // 指定异常占位图
